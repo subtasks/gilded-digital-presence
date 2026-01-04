@@ -51,7 +51,11 @@ const About = () => {
               </AnimatedSection>
               <AnimatedSection delay={0.2}>
                 <p className="body-lg max-w-2xl">
+<<<<<<< HEAD
                   We're a team of passionate technologists, designers, and strategists 
+=======
+                  We're a team of passionate technologists, designers, and strategists
+>>>>>>> uv
                   united by a single mission: to help businesses thrive in the digital age.
                 </p>
               </AnimatedSection>
@@ -69,6 +73,7 @@ const About = () => {
                     Our <span className="text-gold-gradient">Story</span>
                   </h2>
                   <p className="body-md">
+<<<<<<< HEAD
                     Subtasks was founded with a simple belief: technology should empower 
                     businesses, not complicate them. Too often, we saw companies struggling 
                     with outdated systems, fragmented solutions, and vendors who didn't 
@@ -78,6 +83,17 @@ const About = () => {
                     We set out to change that. Today, Subtasks is a trusted partner to 
                     businesses of all sizes, from ambitious startups to established 
                     enterprises. We don't just deliver projects—we build lasting 
+=======
+                    Subtasks was founded with a simple belief: technology should empower
+                    businesses, not complicate them. Too often, we saw companies struggling
+                    with outdated systems, fragmented solutions, and vendors who didn't
+                    understand their needs.
+                  </p>
+                  <p className="body-md">
+                    We set out to change that. Today, Subtasks is a trusted partner to
+                    businesses of all sizes, from ambitious startups to established
+                    enterprises. We don't just deliver projects—we build lasting
+>>>>>>> uv
                     relationships and solutions that grow with you.
                   </p>
                   <Button variant="gold-outline" asChild>
@@ -94,10 +110,18 @@ const About = () => {
                   <div className="aspect-[4/3] rounded-3xl bg-secondary border border-border overflow-hidden">
                     <div className="absolute inset-0 flex items-center justify-center">
                       <div className="w-32 h-32 rounded-2xl bg-gold-gradient flex items-center justify-center glow-gold">
+<<<<<<< HEAD
                         <span className="text-5xl font-bold text-primary-foreground">S</span>
                       </div>
                     </div>
                     <div className="absolute top-6 left-6 w-20 h-20 rounded-xl bg-primary/10 animate-float" />
+=======
+                        {/* <span className="text-5xl font-bold text-primary-foreground">S</span> */}
+                        <img src="public\favicon.png" alt="Subtask" className="rounded-lg bg-gold-gradient h-32 w-32 flex items-center justify-center object-cover" />
+                      </div>
+                    </div>
+                    <div className="absolute top-6 left-6 w-28 h-28 rounded-xl bg-primary/10 animate-float" />
+>>>>>>> uv
                     <div className="absolute bottom-8 right-8 w-24 h-24 rounded-full bg-primary/15" />
                   </div>
                 </div>
@@ -117,8 +141,13 @@ const About = () => {
                   </div>
                   <h3 className="heading-md mb-4">Our Mission</h3>
                   <p className="body-md">
+<<<<<<< HEAD
                     To empower businesses with innovative technology solutions that drive 
                     growth, efficiency, and competitive advantage. We believe every 
+=======
+                    To empower businesses with innovative technology solutions that drive
+                    growth, efficiency, and competitive advantage. We believe every
+>>>>>>> uv
                     organization deserves access to world-class digital tools and expertise.
                   </p>
                 </div>
@@ -131,8 +160,13 @@ const About = () => {
                   </div>
                   <h3 className="heading-md mb-4">Our Vision</h3>
                   <p className="body-md">
+<<<<<<< HEAD
                     To be the most trusted technology partner for businesses worldwide, 
                     known for our exceptional quality, innovative solutions, and unwavering 
+=======
+                    To be the most trusted technology partner for businesses worldwide,
+                    known for our exceptional quality, innovative solutions, and unwavering
+>>>>>>> uv
                     commitment to client success.
                   </p>
                 </div>

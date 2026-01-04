@@ -44,11 +44,20 @@ export const WhyChooseUs = () => {
                 <div className="absolute top-8 left-8 w-24 h-24 rounded-2xl bg-primary/20 animate-float" />
                 <div className="absolute bottom-12 right-12 w-32 h-32 rounded-full bg-primary/15" />
                 <div className="absolute top-1/3 right-8 w-16 h-16 rounded-xl bg-primary/25" />
+<<<<<<< HEAD
                 
                 {/* Center icon */}
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="w-24 h-24 rounded-2xl bg-gold-gradient flex items-center justify-center glow-gold">
                     <span className="text-4xl font-bold text-primary-foreground">S</span>
+=======
+
+                {/* Center icon */}
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <div className="w-24 h-24 rounded-2xl bg-gold-gradient flex items-center justify-center glow-gold">
+                    {/* <span className="text-4xl font-bold text-primary-foreground">S</span> */}
+                    <img src="public\favicon.png" alt="Subtask" className="rounded-lg bg-gold-gradient h-24 w-24 flex items-center justify-center object-cover" />
+>>>>>>> uv
                   </div>
                 </div>
               </div>
@@ -70,7 +79,11 @@ export const WhyChooseUs = () => {
             </AnimatedSection>
             <AnimatedSection delay={0.2}>
               <p className="body-md mb-8">
+<<<<<<< HEAD
                 We're not just another IT company. We're strategic partners committed 
+=======
+                We're not just another IT company. We're strategic partners committed
+>>>>>>> uv
                 to your long-term success.
               </p>
             </AnimatedSection>

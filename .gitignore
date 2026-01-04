@@ -8,6 +8,10 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
+<<<<<<< HEAD
+=======
+build
+>>>>>>> uv
 dist
 dist-ssr
 *.local
@@ -22,3 +26,12 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+<<<<<<< HEAD
+=======
+
+# environment variables
+.env
+.env.local
+
+
+>>>>>>> uv

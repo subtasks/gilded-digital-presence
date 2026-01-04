@@ -12,7 +12,11 @@ export const Hero = () => {
         <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/10 rounded-full blur-3xl" />
         <div className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-primary/5 rounded-full blur-3xl" />
         {/* Grid pattern */}
+<<<<<<< HEAD
         <div 
+=======
+        <div
+>>>>>>> uv
           className="absolute inset-0 opacity-[0.02]"
           style={{
             backgroundImage: `linear-gradient(hsl(var(--primary)) 1px, transparent 1px),
@@ -53,7 +57,11 @@ export const Hero = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="body-lg max-w-2xl mx-auto mb-10"
           >
+<<<<<<< HEAD
             We craft innovative web solutions, automate complex processes, and build 
+=======
+            We craft innovative web solutions, automate complex processes, and build
+>>>>>>> uv
             scalable software that empowers businesses to thrive in the digital age.
           </motion.p>
 
@@ -76,7 +84,11 @@ export const Hero = () => {
           </motion.div>
 
           {/* Trust Indicators */}
+<<<<<<< HEAD
           <motion.div
+=======
+          {/* <motion.div
+>>>>>>> uv
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.5 }}
@@ -96,7 +108,11 @@ export const Hero = () => {
                 </motion.div>
               ))}
             </div>
+<<<<<<< HEAD
           </motion.div>
+=======
+          </motion.div> */}
+>>>>>>> uv
         </div>
       </div>
 

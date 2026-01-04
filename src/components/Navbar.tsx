@@ -34,19 +34,33 @@ export const Navbar = () => {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94] }}
+<<<<<<< HEAD
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled 
           ? 'bg-background/95 backdrop-blur-md border-b border-border/50' 
           : 'bg-transparent'
       }`}
+=======
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled
+        ? 'bg-background/95 backdrop-blur-md border-b border-border/50'
+        : 'bg-transparent'
+        }`}
+>>>>>>> uv
     >
       <nav className="container-custom">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 group">
+<<<<<<< HEAD
             <div className="w-10 h-10 rounded-lg bg-gold-gradient flex items-center justify-center">
               <span className="text-primary-foreground font-bold text-xl">S</span>
             </div>
+=======
+            {/* <div className="w-10 h-10 rounded-lg bg-gold-gradient flex items-center justify-center">
+              <span className="text-primary-foreground font-bold text-xl">S</span>
+            </div> */}
+            <img src="public\favicon.png" alt="Subtask" className="rounded-lg bg-gold-gradient h-10 w-10 flex items-center justify-center object-cover" />
+>>>>>>> uv
             <span className="text-xl font-semibold text-foreground group-hover:text-primary transition-colors">
               Subtasks
             </span>
@@ -58,11 +72,18 @@ export const Navbar = () => {
               <Link
                 key={link.path}
                 to={link.path}
+<<<<<<< HEAD
                 className={`relative text-sm font-medium transition-colors gold-underline ${
                   location.pathname === link.path 
                     ? 'text-primary' 
                     : 'text-muted-foreground hover:text-foreground'
                 }`}
+=======
+                className={`relative text-sm font-medium transition-colors gold-underline ${location.pathname === link.path
+                  ? 'text-primary'
+                  : 'text-muted-foreground hover:text-foreground'
+                  }`}
+>>>>>>> uv
               >
                 {link.name}
               </Link>
@@ -106,11 +127,18 @@ export const Navbar = () => {
                 >
                   <Link
                     to={link.path}
+<<<<<<< HEAD
                     className={`block py-2 text-lg font-medium transition-colors ${
                       location.pathname === link.path 
                         ? 'text-primary' 
                         : 'text-muted-foreground hover:text-foreground'
                     }`}
+=======
+                    className={`block py-2 text-lg font-medium transition-colors ${location.pathname === link.path
+                      ? 'text-primary'
+                      : 'text-muted-foreground hover:text-foreground'
+                      }`}
+>>>>>>> uv
                   >
                     {link.name}
                   </Link>

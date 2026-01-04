@@ -55,10 +55,17 @@ const Contact = () => {
     }
 
     setIsSubmitting(true);
+<<<<<<< HEAD
     
     // Simulate form submission
     await new Promise(resolve => setTimeout(resolve, 1500));
     
+=======
+
+    // Simulate form submission
+    await new Promise(resolve => setTimeout(resolve, 1500));
+
+>>>>>>> uv
     setIsSubmitting(false);
     setIsSubmitted(true);
     toast({
@@ -88,7 +95,11 @@ const Contact = () => {
               </AnimatedSection>
               <AnimatedSection delay={0.2}>
                 <p className="body-lg">
+<<<<<<< HEAD
                   Have a project in mind? We'd love to hear about it. 
+=======
+                  Have a project in mind? We'd love to hear about it.
+>>>>>>> uv
                   Drop us a message and we'll get back to you within 24 hours.
                 </p>
               </AnimatedSection>
@@ -106,14 +117,23 @@ const Contact = () => {
                   <div>
                     <h3 className="heading-md mb-6">Contact Information</h3>
                     <p className="body-md">
+<<<<<<< HEAD
                       Reach out through any channel that works best for you. 
+=======
+                      Reach out through any channel that works best for you.
+>>>>>>> uv
                       We're here to help.
                     </p>
                   </div>
 
                   <div className="space-y-6">
+<<<<<<< HEAD
                     <a 
                       href="mailto:hello@subtasks.com" 
+=======
+                    <a
+                      href="mailto:subtasks.info@gmail.com"
+>>>>>>> uv
                       className="flex items-start gap-4 p-4 bg-card rounded-xl border border-border hover:border-primary/30 transition-colors group"
                     >
                       <div className="w-12 h-12 rounded-lg bg-secondary flex items-center justify-center group-hover:bg-primary/10 transition-colors">
@@ -121,12 +141,21 @@ const Contact = () => {
                       </div>
                       <div>
                         <div className="text-sm text-muted-foreground mb-1">Email</div>
+<<<<<<< HEAD
                         <div className="font-medium text-foreground">hello@subtasks.com</div>
                       </div>
                     </a>
 
                     <a 
                       href="tel:+1234567890" 
+=======
+                        <div className="font-medium text-foreground">subtask.info@gmail.com</div>
+                      </div>
+                    </a>
+
+                    <a
+                      href="tel:+918709952821"
+>>>>>>> uv
                       className="flex items-start gap-4 p-4 bg-card rounded-xl border border-border hover:border-primary/30 transition-colors group"
                     >
                       <div className="w-12 h-12 rounded-lg bg-secondary flex items-center justify-center group-hover:bg-primary/10 transition-colors">
@@ -134,7 +163,11 @@ const Contact = () => {
                       </div>
                       <div>
                         <div className="text-sm text-muted-foreground mb-1">Phone</div>
+<<<<<<< HEAD
                         <div className="font-medium text-foreground">+1 (234) 567-890</div>
+=======
+                        <div className="font-medium text-foreground">8709952821</div>
+>>>>>>> uv
                       </div>
                     </a>
 
@@ -144,7 +177,11 @@ const Contact = () => {
                       </div>
                       <div>
                         <div className="text-sm text-muted-foreground mb-1">Office</div>
+<<<<<<< HEAD
                         <div className="font-medium text-foreground">San Francisco, CA</div>
+=======
+                        <div className="font-medium text-foreground">Karond, Bhopal (M.P), 462038</div>
+>>>>>>> uv
                         <div className="text-sm text-muted-foreground">Mon - Fri, 9am - 6pm PST</div>
                       </div>
                     </div>
@@ -162,11 +199,19 @@ const Contact = () => {
                       </div>
                       <h3 className="heading-md mb-4">Thank You!</h3>
                       <p className="body-md mb-8">
+<<<<<<< HEAD
                         Your message has been sent successfully. 
                         We'll get back to you within 24 hours.
                       </p>
                       <Button 
                         variant="gold-outline" 
+=======
+                        Your message has been sent successfully.
+                        We'll get back to you within 24 hours.
+                      </p>
+                      <Button
+                        variant="gold-outline"
+>>>>>>> uv
                         onClick={() => {
                           setIsSubmitted(false);
                           setFormData({ name: '', email: '', phone: '', message: '' });
@@ -187,7 +232,11 @@ const Contact = () => {
                             name="name"
                             value={formData.name}
                             onChange={handleChange}
+<<<<<<< HEAD
                             placeholder="John Doe"
+=======
+                            placeholder="Atharva Verma"
+>>>>>>> uv
                             className={errors.name ? 'border-destructive' : ''}
                           />
                           {errors.name && (
@@ -204,7 +253,11 @@ const Contact = () => {
                             type="email"
                             value={formData.email}
                             onChange={handleChange}
+<<<<<<< HEAD
                             placeholder="john@example.com"
+=======
+                            placeholder="atharva65@example.com"
+>>>>>>> uv
                             className={errors.email ? 'border-destructive' : ''}
                           />
                           {errors.email && (
@@ -222,7 +275,11 @@ const Contact = () => {
                           name="phone"
                           value={formData.phone}
                           onChange={handleChange}
+<<<<<<< HEAD
                           placeholder="+1 (234) 567-890"
+=======
+                          placeholder="+91 9988855444"
+>>>>>>> uv
                         />
                       </div>
 
@@ -244,10 +301,17 @@ const Contact = () => {
                         )}
                       </div>
 
+<<<<<<< HEAD
                       <Button 
                         type="submit" 
                         variant="hero" 
                         size="lg" 
+=======
+                      <Button
+                        type="submit"
+                        variant="hero"
+                        size="lg"
+>>>>>>> uv
                         className="w-full md:w-auto"
                         disabled={isSubmitting}
                       >

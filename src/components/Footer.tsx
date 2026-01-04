@@ -5,8 +5,13 @@ const footerLinks = {
   company: [
     { name: 'About Us', path: '/about' },
     { name: 'Portfolio', path: '/portfolio' },
+<<<<<<< HEAD
     { name: 'Blog', path: '/blog' },
     { name: 'Careers', path: '/careers' },
+=======
+    // { name: 'Blog', path: '/blog' },
+    // { name: 'Careers', path: '/careers' },
+>>>>>>> uv
   ],
   services: [
     { name: 'Web Development', path: '/services#web-development' },
@@ -22,7 +27,11 @@ const footerLinks = {
 };
 
 const socialLinks = [
+<<<<<<< HEAD
   { icon: Linkedin, href: '#', label: 'LinkedIn' },
+=======
+  { icon: Linkedin, href: 'https://www.linkedin.com/in/subtasks-team-b71a08397', label: 'LinkedIn' },
+>>>>>>> uv
   { icon: Twitter, href: '#', label: 'Twitter' },
   { icon: Instagram, href: '#', label: 'Instagram' },
 ];
@@ -36,11 +45,17 @@ export const Footer = () => {
           <div className="lg:col-span-2">
             <Link to="/" className="flex items-center gap-2 mb-6">
               <div className="w-10 h-10 rounded-lg bg-gold-gradient flex items-center justify-center">
+<<<<<<< HEAD
                 <span className="text-primary-foreground font-bold text-xl">S</span>
+=======
+                {/* <span className="text-primary-foreground font-bold text-xl">S</span> */}
+                <img src="public\favicon.png" alt="Subtask" className="rounded-lg bg-gold-gradient h-10 w-10 flex items-center justify-center object-cover" />
+>>>>>>> uv
               </div>
               <span className="text-xl font-semibold text-foreground">Subtasks</span>
             </Link>
             <p className="text-muted-foreground mb-6 max-w-sm">
+<<<<<<< HEAD
               Transforming ideas into digital excellence. We craft innovative solutions 
               that drive business growth and digital transformation.
             </p>
@@ -62,6 +77,45 @@ export const Footer = () => {
               <div className="flex items-center gap-3 text-muted-foreground">
                 <MapPin size={18} />
                 <span>San Francisco, CA</span>
+=======
+              Transforming ideas into digital excellence. We craft innovative solutions
+              that drive business growth and digital transformation.
+            </p>
+            <div className="space-y-3">
+              <a
+                href="mailto:subtasks.info@gmail.com"
+                className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors"
+              >
+                <Mail size={18} />
+                <span>subtask.info@gmail.com</span>
+              </a>
+              <div className="flex items-center gap-3 text-muted-foreground">
+                <MapPin size={18} />
+                <span>Karond, Bhopal (M.P), 462038</span>
+              </div>
+              <div className="flex">
+                <a
+                  href="tel:+918709952821"
+                  className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors"
+                >
+                  <Phone size={18} />
+                  <span>8709952821</span>
+                </a>
+                &nbsp;|
+                <a
+                  href="tel:+919973565868"
+                  className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors"
+                >
+                  &nbsp; 9973565868
+                </a>
+                &nbsp;|
+                <a
+                  href="tel:+919617432190"
+                  className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors"
+                >
+                  <span>&nbsp; 9617432190 </span>
+                </a>
+>>>>>>> uv
               </div>
             </div>
           </div>
@@ -72,8 +126,14 @@ export const Footer = () => {
             <ul className="space-y-3">
               {footerLinks.company.map((link) => (
                 <li key={link.path}>
+<<<<<<< HEAD
                   <Link 
                     to={link.path}
+=======
+                  <Link
+                    to={link.path}
+                    onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+>>>>>>> uv
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
                     {link.name}
@@ -89,8 +149,14 @@ export const Footer = () => {
             <ul className="space-y-3">
               {footerLinks.services.map((link) => (
                 <li key={link.path}>
+<<<<<<< HEAD
                   <Link 
                     to={link.path}
+=======
+                  <Link
+                    to={link.path}
+                    onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+>>>>>>> uv
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
                     {link.name}
@@ -106,8 +172,14 @@ export const Footer = () => {
             <ul className="space-y-3">
               {footerLinks.legal.map((link) => (
                 <li key={link.path}>
+<<<<<<< HEAD
                   <Link 
                     to={link.path}
+=======
+                  <Link
+                    to={link.path}
+                    onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+>>>>>>> uv
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
                     {link.name}

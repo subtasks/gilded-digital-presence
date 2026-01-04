@@ -20,7 +20,11 @@ const services = [
       'Performance optimization',
       'SEO-friendly architecture',
     ],
+<<<<<<< HEAD
     technologies: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Node.js'],
+=======
+    technologies: ['React', 'Java', 'TypeScript', 'HTML-5', 'CSS-3', 'REST API', 'Redux', 'Node.js'],
+>>>>>>> uv
   },
   {
     id: 'software',
@@ -91,7 +95,11 @@ const Services = () => {
               </AnimatedSection>
               <AnimatedSection delay={0.2}>
                 <p className="body-lg">
+<<<<<<< HEAD
                   From concept to deployment, we offer comprehensive services designed 
+=======
+                  From concept to deployment, we offer comprehensive services designed
+>>>>>>> uv
                   to accelerate your digital journey and maximize ROI.
                 </p>
               </AnimatedSection>
@@ -104,7 +112,11 @@ const Services = () => {
           <div className="container-custom space-y-16">
             {services.map((service, index) => (
               <AnimatedSection key={service.id} delay={index * 0.1}>
+<<<<<<< HEAD
                 <div 
+=======
+                <div
+>>>>>>> uv
                   id={service.id}
                   className="scroll-mt-24 p-8 md:p-12 bg-card rounded-3xl border border-border"
                 >
@@ -118,7 +130,11 @@ const Services = () => {
                         <h2 className="heading-md">{service.title}</h2>
                       </div>
                       <p className="body-md mb-8">{service.description}</p>
+<<<<<<< HEAD
                       
+=======
+
+>>>>>>> uv
                       {/* Features */}
                       <div className="grid sm:grid-cols-2 gap-3 mb-8">
                         {service.features.map((feature) => (
@@ -147,7 +163,11 @@ const Services = () => {
                         </h4>
                         <div className="flex flex-wrap gap-3">
                           {service.technologies.map((tech) => (
+<<<<<<< HEAD
                             <span 
+=======
+                            <span
+>>>>>>> uv
                               key={tech}
                               className="px-4 py-2 bg-secondary rounded-lg text-sm font-medium text-foreground"
                             >

@@ -4,17 +4,29 @@ import { AnimatedSection, StaggerContainer, StaggerItem } from '@/components/Ani
 const testimonials = [
   {
     quote: "Subtasks transformed our outdated systems into a modern, efficient platform. The results exceeded our expectations.",
+<<<<<<< HEAD
     author: "Sarah Johnson",
+=======
+    author: "Sonal Rungta",
+>>>>>>> uv
     role: "CEO, TechStart Inc.",
   },
   {
     quote: "Professional, responsive, and incredibly skilled. They delivered our project on time and within budget.",
+<<<<<<< HEAD
     author: "Michael Chen",
+=======
+    author: "Shankar Singh",
+>>>>>>> uv
     role: "Founder, Innovate Labs",
   },
   {
     quote: "Their automation solutions saved us hundreds of hours. The ROI was visible within the first month.",
+<<<<<<< HEAD
     author: "Emily Rodriguez",
+=======
+    author: "Hemayush Darshan",
+>>>>>>> uv
     role: "COO, Scale Digital",
   },
 ];

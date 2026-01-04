@@ -23,15 +23,25 @@ export const AboutSnapshot = () => {
             </AnimatedSection>
             <AnimatedSection delay={0.2}>
               <p className="body-md mb-6">
+<<<<<<< HEAD
                 Subtasks is a premium IT solutions company dedicated to turning complex 
                 challenges into elegant digital solutions. We don't just build products; 
+=======
+                Subtasks is a premium IT solutions company dedicated to turning complex
+                challenges into elegant digital solutions. We don't just build products;
+>>>>>>> uv
                 we craft experiences that drive growth and innovation.
               </p>
             </AnimatedSection>
             <AnimatedSection delay={0.3}>
               <p className="body-md mb-8">
+<<<<<<< HEAD
                 Our mission is to empower businesses with technology that scales. Whether 
                 you're a startup finding your footing or an enterprise seeking optimization, 
+=======
+                Our mission is to empower businesses with technology that scales. Whether
+                you're a startup finding your footing or an enterprise seeking optimization,
+>>>>>>> uv
                 we're the technical partner you can trust.
               </p>
             </AnimatedSection>
@@ -51,10 +61,17 @@ export const AboutSnapshot = () => {
               {[
                 { number: '50+', label: 'Projects Delivered' },
                 { number: '98%', label: 'Client Satisfaction' },
+<<<<<<< HEAD
                 { number: '5+', label: 'Years Experience' },
                 { number: '24/7', label: 'Support Available' },
               ].map((stat, index) => (
                 <div 
+=======
+                { number: '7+', label: 'Years Experience' },
+                { number: '24/7', label: 'Support Available' },
+              ].map((stat, index) => (
+                <div
+>>>>>>> uv
                   key={stat.label}
                   className="p-6 bg-background rounded-2xl border border-border hover:border-primary/30 transition-colors group"
                 >
